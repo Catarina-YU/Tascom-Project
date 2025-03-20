@@ -1,4 +1,7 @@
 import Corvinal from "./Corvinal";
+import Grifinoria from "./Grifinoria"
 import Home from "./Home";
+import Lufalufa from "./Lufalufa";
+import Sonserina from "./Sonserina"
 
-export { Corvinal, Home };
+export { Corvinal, Grifinoria, Home, Lufalufa, Sonserina };

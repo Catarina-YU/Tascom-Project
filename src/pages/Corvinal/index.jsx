@@ -1,5 +1,9 @@
-export default function Corvinal() {
+import "./style.css"
+
+function Corvinal() {
   return (
-    <h2>Corvo</h2>
+    <h1>Bem-vindo à Crivinal!</h1>
   )
 }
+
+export default Corvinal
