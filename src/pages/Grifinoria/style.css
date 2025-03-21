@@ -1,0 +1,42 @@
+.container {
+    height: 90vh;
+    width: 80vw;
+    margin-top: 5vh;
+    border-radius: 32px;
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(213, 139, 36, 0.6);
+}
+
+.header {
+    text-align: center;
+    padding: 20px;
+    color: rgb(119, 5, 5);
+}
+
+p {
+    margin-inline: 40px;
+    margin-bottom: 40px;
+    text-align: justify;
+    color: white;
+}
+
+.card {
+    color:rgb(119, 5, 5);
+    gap: 10px !important;
+}
+
+figcaption {
+    margin: 0 auto;
+    font-weight: bold;
+}
+
+.g-images img {
+    border-radius: 50%;
+    border: 2px solid rgb(119, 5, 5);
+}
+
+.g-images {
+    height: 300px;
+    top: -30px;
+}

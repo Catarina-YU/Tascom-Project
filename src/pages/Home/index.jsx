@@ -19,7 +19,7 @@ export default function Home() {
   return (
 
     <div className="home">
-      <Back />
+      <Back style={{url:images.hogwarts}}/>
       <Header>
         <Title>Horgwarts House</Title>
       </Header>

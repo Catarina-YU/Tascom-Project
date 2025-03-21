@@ -1,4 +1,5 @@
-import "./style.css"
+import "./style.css";
+import { Back, Main, Card, Header, images } from "../../components";
 
 function Corvinal() {
   return (
@@ -7,3 +8,4 @@ function Corvinal() {
 }
 
 export default Corvinal
+

@@ -1,9 +1,5 @@
-import "./style.css"
+import "./style.css";
 
-export default function Card({children}) {
-  return(
-    <article className="card">
-      {children}
-    </article>
-  )
+export default function Card({ children }) {
+  return <article className="card">{children}</article>;
 }
