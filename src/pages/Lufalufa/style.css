@@ -1,0 +1,32 @@
+.container .header {
+    text-align: center;
+    padding: 20px;
+    color: rgb(234, 171, 32);
+}
+
+p {
+    margin-inline: 40px;
+    margin-bottom: 40px;
+    text-align: justify;
+    color: white;
+}
+
+.card {
+    color:rgb(234, 171, 32) !important;
+    gap: 10px !important;
+}
+
+figcaption {
+    margin: 0 auto;
+    font-weight: bold;
+}
+
+.l-images img {
+    border-radius: 50%;
+    border: 2px solid rgb(234, 171, 32)
+}
+
+.l-images {
+    height: 300px;
+    top: -30px;
+}

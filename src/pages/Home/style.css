@@ -13,6 +13,10 @@
     background-color: black;
 }
 
+.rest {
+    color: rgba(15, 72, 63, 0.9);
+}
+
 img {
     width: 200px;
 }

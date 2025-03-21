@@ -1,0 +1,22 @@
+.container {
+  width: 80vw;
+  height: auto;
+  border-radius: 32px;
+  display: flex;
+  flex-direction: column;
+}
+
+.main {
+  height: auto;
+  padding-block-end: 40px;
+}
+
+.images {
+  height: auto;
+}
+
+.images img {
+  border-radius: 50%;
+  border-width: 2px;
+  border-style: solid;
+}

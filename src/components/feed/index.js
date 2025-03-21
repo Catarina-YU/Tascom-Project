@@ -7,5 +7,15 @@ export const images = {
   hermi: require("./hermione.jpg"),
   ronyy: require("./rony.jpg"),
   backG: require("./back-g.jpg"),
-  hogwarts: require("./hogwarts.gif")
+  hogwarts: require("./hogwarts.gif"),
+  luna: require ("./luna.jpg"),
+  cho: require ("./chang.jpg"),
+  backC: require ("./back-c.jpg"),
+  Cedric: require ("./cedric.png"),
+  Tonks: require ("./ninfadora.jpg"),
+  backL: require ("./back-l.jpg"),
+  backS: require ("./back-s.jpg"),
+  lord: require ("./voldemort.png"),
+  snape: require ("./snape.jpg"),
+  draco: require ("./draco.jpg")
 }
