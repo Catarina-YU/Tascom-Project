@@ -10,10 +10,6 @@ const houses = [
   { name: "Lufa-Lufa", img: images.lufalufa, link: "/lufalufa", class: "l" },
   { name: "Sonserina", img: images.sonserina, link: "/sonserina", class: "s" }
 ]
-// import grifinoria from "../../components/feed/grifinoria.jpg";
-// import corvinal from "../../components/feed/corvinal.jpg";
-// import lufalufa from "../../components/feed/lufa-lufa.jpg";
-// import sonserina from "../../components/feed/sonserina.jpg";
 
 export default function Home() {
   return (
