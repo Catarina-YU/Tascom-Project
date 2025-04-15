@@ -13,7 +13,8 @@ const questions = [
     ],
   },
   {
-    question: "Qual dessas criaturas mágicas você gostaria de ter como companheira?",
+    question:
+      "Qual dessas criaturas mágicas você gostaria de ter como companheira?",
     options: [
       { text: "Hipogrifo", house: "Grifinoria" },
       { text: "Fênix", house: "Corvinal" },
@@ -88,8 +89,14 @@ const questions = [
     question: "Como você reagiria ao ser escolhido pelo Chapéu Seletor?",
     options: [
       { text: "Aceitaria com orgulho", house: "Grifinoria" },
-      { text: "Perguntaria sobre o que o Chapéu está pensando", house: "Corvinal" },
-      { text: "Desafiaria o Chapéu a me colocar onde eu quero", house: "Sonserina" },
+      {
+        text: "Perguntaria sobre o que o Chapéu está pensando",
+        house: "Corvinal",
+      },
+      {
+        text: "Desafiaria o Chapéu a me colocar onde eu quero",
+        house: "Sonserina",
+      },
       { text: "Aceitaria o destino e me adaptaria", house: "Lufalufa" },
     ],
   },
@@ -135,7 +142,7 @@ export default function Question() {
             key={i}
             onClick={() => handleAnswer(opt.house)}
             className="option-button"
-            style={{ '--delay': `${i * 0.2}s` }}
+            style={{ "--delay": `${i * 0.2}s` }}
           >
             {opt.text}
           </button>
@@ -145,9 +152,13 @@ export default function Question() {
       {/* Exibe o resultado após todas as perguntas */}
       {currentQuestion === questions.length && (
         <div className="result-container">
-          <h3>Você pertence à casa {Object.entries(scores).sort((a, b) => b[1] - a[1])[0][0]}!</h3>
+          <h3>
+            Você pertence à casa{" "}
+            {Object.entries(scores).sort((a, b) => b[1] - a[1])[0][0]}!
+          </h3>
         </div>
       )}
     </div>
   );
 }
+

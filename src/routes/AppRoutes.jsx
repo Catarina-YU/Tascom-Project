@@ -10,7 +10,7 @@ export default function AppRoutes() {
         <Route path="/grifinoria" element={<Grifinoria/>}/>
         <Route path="/lufalufa" element={<Lufalufa/>}/>
         <Route path="/sonserina" element={<Sonserina/>}/>
-        <Route path="/Question" element={<Question/>}/>
+        <Route path="/question" element={<Question/>}/>
       </Routes>
     </Router>
   )

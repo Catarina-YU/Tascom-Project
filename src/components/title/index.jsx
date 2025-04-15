@@ -15,7 +15,7 @@ function Title({ children }) {
   };
 
   const handleClick = () => {
-    navigate("/Question");
+    navigate("question");
   };
 
   return (
