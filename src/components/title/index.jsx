@@ -1,23 +1,30 @@
 import React, { useState } from 'react';
+import { useNavigate } from 'react-router-dom';
 import './style.css';
 
 function Title({ children }) {
-  const [color, setColor] = useState("orange");
+  const [active, setActive] = useState(false);
+  const navigate = useNavigate();
 
   const handleMouseEnter = () => {
-    setColor("white");
+    setActive(true);  // Ativa o efeito de animação
   };
 
   const handleMouseOut = () => {
-    setColor("orange");
+    setActive(false);  // Desativa o efeito de animação
+  };
+
+  const handleClick = () => {
+    navigate("/Question");
   };
 
   return (
-    <h1 
-      id="titulo" 
-      style={{ color }} 
-      onMouseEnter={handleMouseEnter} 
+    <h1
+      id="titulo"
+      onMouseEnter={handleMouseEnter}
       onMouseOut={handleMouseOut}
+      onClick={handleClick}
+      className={active ? "active" : ""}
     >
       {children}
     </h1>

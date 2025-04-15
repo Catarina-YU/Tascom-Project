@@ -1,5 +1,27 @@
 h1 {
     text-align: center;
-    padding: 20px; 
-}
+    padding: 20px;
+    font-size: 36px; 
+    color: rgba(255, 215, 85, 0.9); 
+    cursor: pointer; 
+    transition: all 0.3s ease; 
+    display: inline-block; 
+    background: linear-gradient(45deg, #c96e00, #8c5100); 
     
+    -webkit-background-clip: text; 
+    background-clip: text;
+    
+    color: transparent; 
+    box-shadow: 0 0 15px rgba(106, 78, 35, 0.7); 
+  }
+  
+  h1:hover {
+    color: white; 
+    font-size: 42px; 
+    box-shadow: 0 0 25px rgba(255, 215, 85, 1); 
+  }
+  
+  h1:active {
+    box-shadow: 0 0 15px rgba(106, 78, 35, 0.7);
+  }
+  

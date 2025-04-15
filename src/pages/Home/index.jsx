@@ -17,7 +17,7 @@ export default function Home() {
     <div className="home">
       <Back style={{url:images.hogwarts}}/>
       <Header>
-        <Title>Horgwarts House</Title>
+        <Title>Descubra Sua Horgwarts House!</Title>
       </Header>
       <Main>
         <div>
